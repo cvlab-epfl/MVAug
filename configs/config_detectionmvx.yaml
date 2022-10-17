@@ -1,0 +1,27 @@
+---
+  main:
+  dataset:
+    --metric_threshold : '5'
+    --hm_size: 
+      - "160"
+      - "250"
+    --dataset:
+      - multiviewx
+    --view_ids:
+      - "0" 
+      - "1" 
+      - "2"
+      - "3"
+      - "4"
+      - "5"
+
+  training:
+    --detection_to_evaluate:
+      - pred_0
+    --metric_to_print:
+      - moda_pred_0
+      - recall_pred_0
+      - precision_pred_0
+    --loss_to_print:
+      - loss_pred
+      - loss_framepred

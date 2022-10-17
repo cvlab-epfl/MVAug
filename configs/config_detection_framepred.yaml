@@ -1,0 +1,31 @@
+---
+  main:
+  training:
+    --view_ids:
+      - "0"
+      - "1" 
+      - "2"
+      - "3"
+      - "4"
+      - "5"
+      - "6"
+    --detection_to_evaluate:
+      - pred_0
+      - framepred_0_v0
+      - framepred_0_v1
+      - framepred_0_v2
+      - framepred_0_v3
+      - framepred_0_v4
+      - framepred_0_v5
+      - framepred_0_v6
+    --metric_to_print:
+      - moda_pred_0
+      - recall_pred_0
+      - precision_pred_0
+      - moda_framepred_0_v0
+      - recall_framepred_0_v0
+      - precision_framepred_0_v0
+    --loss_to_print:
+      - loss_pred
+      - loss_framepred
+    --image_pred:
