@@ -2,6 +2,7 @@
 
 <div style="text-align:center"><img src="./images/model.png" width="1000"></div>
 
+Training and evaluation code for the paper [Two-level Data Augmentation for Calibrated Multi-view Detection](https://infoscience.epfl.ch/record/297341?&ln=en)
 
 
 ## Getting Started
